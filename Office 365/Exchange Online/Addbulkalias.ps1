@@ -1,3 +1,16 @@
+#The following script is designed to add an alias to an entire group of users simultaneously, based on their email addresses. For example, everyone with an @jemoeder.nl email address will be assigned an alias of @hansworst.nl.
+#Functionality:
+
+#    Check for Required Tools:
+#    The script checks if the Exchange Online tools are installed. If they are not, it installs them.
+#    Admin Account Prompt:
+#    The script prompts the user to specify which admin account should be used.
+#    Domain Information:
+#        The script asks for the current domain.
+#        It then asks for the domain to be used for the aliases.
+#    Logging Option:
+#    Finally, the script asks if verbose logging should be enabled.
+
 # Check if the Exchange Online Management module is installed
 if (-not (Get-Module -ListAvailable -Name ExchangeOnlineManagement)) {
     Write-Host "Exchange Online Management module is not installed. Installing now..." -ForegroundColor Yellow
