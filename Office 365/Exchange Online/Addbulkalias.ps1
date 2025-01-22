@@ -1,4 +1,4 @@
-#The following script is designed to add an alias to an entire group of users simultaneously, based on their email addresses. For example, everyone with an @jemoeder.nl email address will be assigned an alias of @hansworst.nl.
+#The following script is designed to add an alias to an entire group of users simultaneously, based on their email addresses. For example, everyone with an @companyA.com email address will be assigned an alias of @companyB.com.
 #Functionality:
 
 #    Check for Required Tools:
