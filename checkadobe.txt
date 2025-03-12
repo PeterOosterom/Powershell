@@ -1,1 +1,1 @@
-wmic product where "name like 'Adobe Acrobat%Reader%'" get name,identifyingnumber
+Get-WmiObject -Query "SELECT * FROM Win32_Product WHERE Name LIKE 'Adobe Acrobat%Reader%'" | Select-Object Name, IdentifyingNumber
