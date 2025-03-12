@@ -1,0 +1,1 @@
+wmic product where "name like 'Adobe Acrobat%Reader%'" get name,identifyingnumber
